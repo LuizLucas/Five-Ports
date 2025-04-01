@@ -2,7 +2,6 @@
 # RISVP ports
 # date: 01 abr 2025
 # https://otexts.com/fpp3/
-# see also https://jtr13.github.io/cc19/time-series-modeling-with-arima-in-r.html
 #########################
 
 t0 <- proc.time() [3]
