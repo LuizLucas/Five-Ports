@@ -1,13 +1,9 @@
 ##########################
 # RISVP ports
-# date: 27 mar 2025
+# date: 01 abr 2025
 # https://otexts.com/fpp3/
 # see also https://jtr13.github.io/cc19/time-series-modeling-with-arima-in-r.html
 #########################
-
-# s_quarters <- c(rep("Q1",3),rep("Q2",3),rep("Q3",3),rep("Q4",3))
-# nRISPV$quarters <- rep(s_quarters, (nrow(ts.data) / length(s_quarters)))
-
 
 t0 <- proc.time() [3]
 par(mfrow = c(1, 1))
@@ -889,5 +885,5 @@ autoplot(fc2) + ggtitle("Combining forecasts-  port of Santos - Hybrid 2") + xla
 
 
 ( time.minutes <- (proc.time()[3] - t0) /60 )
-
+o
 
